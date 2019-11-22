@@ -1,6 +1,14 @@
 nav {
     font-size: 15px;
-    margin-top: 0px;
+    top: 0;
+    background-color: blue;
+    color:white;
+    padding-right: 30px;
+    position:fixed;
+    width:100%;
+    left:0;
+    right:0;
+    z-index: 1;
 }
 
 nav ul {
@@ -34,21 +42,31 @@ nav>ul>li>a:hover {
 }
 body{
     font-size: 30px;
+    background-image: url("https://bit.ly/2O8KgLn");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .toptext>div>img{
-    border-radius: 60%;
+    border-radius: 100%;;
     max-width:300px;
+    align-items: center;
+    
 }
-.toptext div:first-child{
-    display: flex;
+
+.toptext{
+    align-content: center;
+    margin-left: 40%;
+    margin-top: 10%;
 }
-.toptext div:first-child > div{
+
+/* .toptext div:first-child > div{
     text-align: center;
     align-items: center;
     padding-top: 20%;
-}
+} */
 #interest{
     text-align: center;
+    margin-top:20%;
 }
 #interest ul{
     list-style: none;
@@ -62,4 +80,75 @@ body{
 }
 #Education{
     text-align: center;
+}
+#projects{
+    padding:5%;
+    display: flex;
+    justify-content: space-between;
+}
+.prjts img{
+    flex-shrink: 2;
+    height: 500px;
+}
+/* .projects img{
+    margin-left: 50%;
+    width: 20%;
+} */
+.column, .prjts{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.column img, .prjts img{
+ width:100%;
+ height:auto; 
+ max-width: 480px;  
+ border-radius: 80%
+}
+.column .btn, .prjts .btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+#project-head{
+    text-align: center;
+}
+/* .prjts{
+    width: 100%;
+ max-width: 400px; 
+} */
+/* .prjts img{
+    width:100%;
+    height:auto;
+} */
+/* .prjts .btn{
+    text-align: center; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+} */
+
+#arrange{
+    display: flex;
+    justify-content: space-around;
 }
