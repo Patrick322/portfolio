@@ -6,7 +6,7 @@ Buong Patrick
 
 #Description
 
-This is my personal website.It contains my personal details including my hobbies,interest,education background,vision,mission,my contacts and projects have worked on so far in my career of software developer.
+This is my personal website.It contains my personal details including my hobbies,interest,education background,contacts and projects have worked on so far in my career of software developer.
 
 ##setup/installtion Requirement
 
@@ -25,7 +25,9 @@ HTML 5
 CSS3
 
 ##Support and contacts details
+If there is any addition or further clarrificatio please contact me in the number i provided in my portfolio.
+
 
 ##Licence
 
-licenced under the(MIT licence){LICENCED}
+licenced under the(MIT licence){LICENCED})
