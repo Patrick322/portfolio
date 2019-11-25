@@ -30,4 +30,4 @@ If there is any addition or further clarrificatio please contact me in the numbe
 
 ##Licence
 
-licenced under the(MIT licence){LICENCED})
+licenced under the(MIT licence){LICENCED}.
