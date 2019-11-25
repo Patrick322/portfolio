@@ -11,7 +11,7 @@ This is my personal website.It contains my personal details including my hobbies
 ## setup/installtion Requirement
 
 Open terminal
-git clone https://patrick322.github.io/portfolio.github.io/
+git clone https://github.com/Patrick322/portfolio.github.io.git
 cd portfolio
 use code or atom .to open the clone repository on code or VScode respectively
 
