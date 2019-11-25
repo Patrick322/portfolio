@@ -45,6 +45,7 @@ body{
     background-image: url("https://bit.ly/2O8KgLn");
     background-repeat: no-repeat;
     background-size: cover;
+    overflow:none;
 }
 .toptext>div>img{
     border-radius: 100%;;
