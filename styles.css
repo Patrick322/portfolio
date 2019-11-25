@@ -42,10 +42,7 @@ nav>ul>li>a:hover {
 }
 body{
     font-size: 30px;
-    background-image: url("https://bit.ly/2O8KgLn");
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow:none;
+    background: linear-gradient(to right, #36d1dc, #5b86e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .toptext>div>img{
     border-radius: 100%;;
@@ -67,7 +64,7 @@ body{
 } */
 #interest{
     text-align: center;
-    margin-top:20%;
+    margin-top:5px
 }
 #interest ul{
     list-style: none;
@@ -156,4 +153,8 @@ body{
 #contacts{
     text-align: center;
     background-color: gainsboro;
+}
+
+.about{
+    text-align: center;
 }
